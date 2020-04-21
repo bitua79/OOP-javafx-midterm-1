@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="beginningPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="800.0" minWidth="1500.0"
+            prefHeight="850.0" prefWidth="1300.0" stylesheets="style/styles.css"
+            xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.chessbattle.Controller">
+    <ImageView fx:id="firstImage2" fitHeight="945.0" fitWidth="1430.0" layoutX="-20.0" layoutY="-3.0"
+               pickOnBounds="true" preserveRatio="true">
+        <Image url="@photos/firstImage.jpg"/>
+    </ImageView>
+    <Label fx:id="GameInformation" layoutX="56.0" layoutY="117.0" text="a combination of chess &amp; sea battle"
+           textFill="#ffbf00">
+        <font>
+            <Font name="Chiller" size="53.0"/>
+        </font>
+    </Label>
+    <Label fx:id="GameName" layoutX="56.0" layoutY="-3.0" text="CHESS BATTLE" textFill="#ffbf00">
+        <font>
+            <Font name="Chiller" size="110.0"/>
+        </font>
+    </Label>
+    <Button id="orange_notClicked_font20" fx:id="play" layoutX="152.0" layoutY="264.0" mnemonicParsing="false"
+            onAction="#playGame" onMouseEntered="#mouseEnteredPlay" onMouseExited="#mouseExitPlay" prefHeight="60.0"
+            prefWidth="132.0" text="play"/>
+    <Button id="orange_notClicked_font20" fx:id="mute3" layoutX="1100.0" layoutY="600.0" mnemonicParsing="false"
+            onAction="#muteButton" stylesheets="style/styles.css" text="Mute">
+        <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0">
+                <Image url="@photos/muteoff.png"/>
+            </ImageView>
+        </graphic>
+    </Button>
+    <Button id="orange_notClicked_font20" fx:id="guide" layoutX="152.0" layoutY="336.0" mnemonicParsing="false"
+            onAction="#guide" onMouseEntered="#mouseEnteredGuide" onMouseExited="#mouseExitGuide" prefHeight="60.0"
+            prefWidth="132.0" text="guide"/>
+    <ImageView fx:id="secondImage" fitHeight="900.0" fitWidth="1800.0" layoutX="-83.0" layoutY="-30.0"
+               pickOnBounds="true" preserveRatio="true">
+        <Image url="@photos/secondImage.jpg"/>
+    </ImageView>
+    <Button id="shiny-purple" fx:id="goToMenu" layoutX="348.0" layoutY="530.0" mnemonicParsing="false"
+            onAction="#menuOpen" onMouseEntered="#mouseEnteredGoToMenu" onMouseExited="#mouseExitGoToMenu"
+            prefHeight="60.0" prefWidth="147.0" stylesheets="style/styles.css" text="menu" textFill="#425080">
+        <font>
+            <Font size="28.0"/>
+        </font>
+    </Button>
+    <Button id="shiny-purple" fx:id="exit" layoutX="348.0" layoutY="601.0" mnemonicParsing="false"
+            onAction="#quitProgram" onMouseEntered="#mouseEnteredExit" onMouseExited="#mouseExitExit" prefHeight="60.0"
+            prefWidth="120.0" stylesheets="style/styles.css" text="exit"/>
+    <Button id="shiny-purple" fx:id="mute2" layoutX="1100.0" layoutY="600.0" mnemonicParsing="false"
+            onAction="#muteButton" prefHeight="60.0" prefWidth="167.0" stylesheets="style/styles.css" text="Mute">
+        <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0">
+                <Image url="@photos/muteoff.png"/>
+            </ImageView>
+        </graphic>
+        <font>
+            <Font size="30.0"/>
+        </font>
+    </Button>
+    <Label id="welcome-text" fx:id="labelWelcome" layoutX="77.0" layoutY="11.0" prefHeight="141.0" prefWidth="857.0"
+           stylesheets="style/styles.css" text="welcome to CHESS BATTLE" textFill="#3e2b61">
+        <font>
+            <Font size="81.0"/>
+        </font>
+    </Label>
+    <Label fx:id="nameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="344.0" layoutY="189.0"
+           prefHeight="46.0"
+           prefWidth="208.0" text="Label">
+        <font>
+            <Font name="Chiller" size="54.0"/>
+        </font>
+    </Label>
+    <ImageView fx:id="firstImage" fitHeight="945.0" fitWidth="1430.0" layoutX="-1.0" pickOnBounds="true"
+               preserveRatio="true">
+        <image>
+            <Image url="@photos/firstImage.jpg"/>
+        </image>
+    </ImageView>
+    <Label fx:id="labelDimension" layoutX="29.0" layoutY="172.0" text="Your prefer dimension:" textFill="#ffbf00">
+        <font>
+            <Font name="Chiller" size="60.0"/>
+        </font>
+    </Label>
+    <Label fx:id="labelName" layoutX="32.0" layoutY="14.0" text="Please enterYour name:" textFill="#ffbf00">
+        <font>
+            <Font name="Chiller" size="60.0"/>
+        </font>
+    </Label>
+    <Button id="orange_notClicked_font20" fx:id="start" layoutX="1175.0" layoutY="600.0" mnemonicParsing="false"
+            onAction="#beginningGame" onMouseEntered="#mouseEnteredStart" onMouseExited="#mouseExitStart"
+            prefHeight="60.0" prefWidth="120.0" stylesheets="style/styles.css" text="start" textFill="#186b52"/>
+    <Button id="orange_notClicked_font20" fx:id="mute1" layoutX="1128.0" layoutY="51.0" mnemonicParsing="false"
+            onAction="#muteButton" prefHeight="60.0" prefWidth="167.0" stylesheets="style/styles.css" text="Mute">
+        <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0">
+                <Image url="@photos/muteoff.png"/>
+            </ImageView>
+        </graphic>
+    </Button>
+    <TextField fx:id="nameField" layoutX="29.0" layoutY="98.0" onKeyReleased="#handle" opacity="0.5" prefHeight="36.0"
+               prefWidth="364.0"/>
+    <TextField fx:id="dimensionField" layoutX="29.0" layoutY="258.0" onKeyReleased="#handle" opacity="0.5"
+               prefHeight="36.0" prefWidth="364.0"/>
+</AnchorPane>

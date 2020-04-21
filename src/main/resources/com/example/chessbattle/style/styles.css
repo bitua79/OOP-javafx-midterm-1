@@ -1,0 +1,96 @@
+#orange_notClicked_font20 {
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #b08400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+    -fx-padding: 10 20 10 20;
+}
+#orange_notClicked_font15 {
+    -fx-background-color:
+        linear-gradient(#ffd65b, #b08400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-padding: 10 20 10 20;
+}
+#purple-notClicked{
+    -fx-background-color:
+            linear-gradient(#6b8b88, #27304f),
+            linear-gradient(#27304f 0%, #27304f 50%, #6b8b88 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #ffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+    -fx-padding: 10 20 10 20;
+}
+#shiny-purple {
+    -fx-background-color:
+        linear-gradient(#6b8b88, #27304f),
+        linear-gradient(#27304f 0%, #27304f 50%, #6b8b88 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #ffff;
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+    -fx-padding: 10 20 10 20;
+}
+#shiny-darkOrange {
+    -fx-background-color:
+            linear-gradient(#ddba4f, #b08400),
+            linear-gradient(#ffe969, #ddba4f),
+            linear-gradient(#ddba4f, #e89609),
+            linear-gradient(#ddba4f 0%, #e89609 50%, #eea10b 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+    -fx-padding: 10 20 10 20;
+}
+#shiny-LightPurple {
+    -fx-background-color:
+            linear-gradient(#91aeab, #425080),
+            linear-gradient(#425080 0%, #425080 50%, #91aeab 100%),
+            linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #ffff;
+    -fx-font-weight: bold;
+    /*-fx-font-size: 14px;*/
+    -fx-padding: 10 20 10 20;
+}
+#welcome-text {
+   -fx-font-family: "chiller";
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#mi-label{
+   -fx-fill: #818181;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#pane{
+    -fx-background-image: url("../../../../thirdImage.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1500 900;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+
