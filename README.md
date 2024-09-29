@@ -1,5 +1,5 @@
 
-# Chess Battle Game
+# Chess Battle Game (JavaFX Project)
 
 This JavaFX-based game combines elements of Sea Battle with chess-like characters. It was developed as part of my **Advanced Programming Midterm Project**. The game features interactive gameplay with animations, sound effects, and various engaging elements. It includes a game guide, random messages for enhanced user experience, and customization options like purchasing new pieces and random piece arrangement.
 
