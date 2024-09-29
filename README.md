@@ -41,7 +41,7 @@ This JavaFX-based game combines elements of Sea Battle with chess-like character
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/bitua79/chess-battle-game.git
+   git clone https://github.com/bitua79/OOP-javafx-midterm-1.git
    ```
 2. Open the project in your preferred Java IDE (e.g., IntelliJ, Eclipse) and configure the JavaFX SDK.
 3. Run the project to start the game and explore all the new features.
